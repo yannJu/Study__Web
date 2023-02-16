@@ -40,6 +40,10 @@
     - Html 문서 공간분할 (블럭요소 - div)
 17. [ex16_form.html](./ex16_form.html)
     + [joinProcess.html](./joinProcess.html) 넘어가는 html 추가
-    - 텍스트 입력칸, 버튼 생성 및 다음 창으로 넘기기🎠
+    - 텍스트 입력칸, 버튼 생성(+이미지버튼 : href, onclick, submit || image 태그) 및 다음 창으로 넘기기🎠
     - get/post 방식 요청👢
+    - radio, checkbox 박스 사용
+    - select box(단일선택 리스트, 다중선택 리스트)
+    - textarea : 멀티 텍스트라인
+    - hidden 태그
 18. 
