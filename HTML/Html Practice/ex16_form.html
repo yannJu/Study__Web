@@ -33,10 +33,10 @@
         http://127.0.0.1:5500/join ===> POST 방식 요청일 때
         ~~~> 비밀번호, 첨부파일 업로드시 post 를 쓴다.
 	-->
-    <form name = "frm" id = "frm" action = "joinProcess.html" method = "get">
+    <form name = "frm" id = "frm" action = "joinProcess.html" method = "get" enctype="multipart/form-data">
         <!-- <form name = "frm" id = "frm" action = "joinProcess.jsp" method = "post"> 값이 보이지 않게 하기 위해 post 방식 요청을 사용하자-->
         <!-- <form name = "frm" id = "frm" action = "joinProcess.jsp" method = "get" enctype="application/x-www-form-urlencoded"> -->
-        <!--enctype 의 default 는 appl~urlencoded...-->
+        <!--enctype 의 default 는 appl~urlencoded... 하지만 from data 로 해야 데이터까지 첨부된다 . -->
         <!-- 파일업로드시 :  form 태그안에 enctype = "multipart/form-data" 속성이 지정되어야 한다 ++ django 시에 사용할것-->
         <!--placeholder : 미리 작성된 텍스트 ~ 입력하면 사라짐-->
         이름 : <input type = "text" name = "userName" placeholder = "Name"> <br> <!--1줄 짜리 텍스트 박스-->
@@ -50,10 +50,11 @@
         -->
         성별 : <label for = "male"><input type = "radio" name = "gender" id = "male" value = "M">남자</label> <!--value : 서버에 전송할 값-->
         <label for = "female"><input type = "radio" name = "gender" id = "female" checked value = "F">여자</label> <br>
-        취미 : <input type = "checkbox" name = "hobby" value = "Sports" checked>운동
-        취미 : <input type = "checkbox" name = "hobby" value = "Reading">독서
-        취미 : <input type = "checkbox" name = "hobby" value = "Music">음악감상
-        취미 : <input type = "checkbox" name = "hobby" value = "Movie">영화감상 <br>
+        취미 : 
+        <input type = "checkbox" name = "hobby" value = "Sports" checked>운동
+        <input type = "checkbox" name = "hobby" value = "Reading">독서
+        <input type = "checkbox" name = "hobby" value = "Music">음악감상
+        <input type = "checkbox" name = "hobby" value = "Movie">영화감상 <br>
         <br>
 
         <!--
@@ -92,7 +93,10 @@
         <br>
         <br>
 
-    <input type = "hidden" name = "secret" value = "TopSecret"> <!--사용자 눈에는 보이지 않는 것을 전송하고자 할 때 씀 / Post 로 보내야 값이 안보이겠지 !!-->
+        <input type = "hidden" name = "secret" value = "TopSecret"> <!--사용자 눈에는 보이지 않는 것을 전송하고자 할 때 씀 / Post 로 보내야 값이 안보이겠지 !!-->
+        <br>
+
+        첨부파일 : <input type = "file" name = "photo" placeholder="증명사진을 첨부하세요">
         <br>
         <br>
 

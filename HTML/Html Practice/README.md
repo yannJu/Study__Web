@@ -46,4 +46,4 @@
     - select box(단일선택 리스트, 다중선택 리스트)
     - textarea : 멀티 텍스트라인
     - hidden 태그
-18. 
+    - 첨부파일 Upload
