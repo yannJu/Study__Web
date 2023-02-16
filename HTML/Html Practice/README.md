@@ -36,6 +36,10 @@
     - Html 문서 내에 오디오 재생기 삽입🎡
 15. [ex14_video.html](./ex14_video.html)
     - Html 문서 내에 비디오 삽입👕
-16. [ex15_div.html](./ex15_div.html)
+16. [ex15_div_span.html](./ex15_div.html)
     - Html 문서 공간분할 (블럭요소 - div)
-17. 
+17. [ex16_form.html](./ex16_form.html)
+    + [joinProcess.html](./joinProcess.html) 넘어가는 html 추가
+    - 텍스트 입력칸, 버튼 생성 및 다음 창으로 넘기기🎠
+    - get/post 방식 요청👢
+18. 
