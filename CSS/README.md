@@ -9,4 +9,8 @@
 3. [ex21_css3.html](./ex21_css3.html)
    - 외부에 스타일을 정의 + @import를 통한 style 참조⚽
    - 하지만 @import 보다는 주로 link태그를 권장한다.
-4. 
+4. [ex22_css4.html](./ex22_css4.html)
+   - 태그 안에 inline으로 style 속성을 작성한 후 참조👜
+   - inline style이 가장 우선순위가 높게 적용된다.
+**아이디 > 클래스 > 계층 > 태그 선택자 순으로  선택자 우선순위가 높다.**
+5. 
