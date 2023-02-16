@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex10_table.html</title>
+</head>
+<body>
+    <h1>테이블 (3행 2열)</h1>
+    <table border = "1" width = "400px" height = "300px"> <!-- border 라는 속성을 이용하여 두께 조절 -->
+        <!-- 1행 -->
+        <tr> <!--행-->
+            <td> <!--열-->
+                1행 1열
+            </td> 
+            <td>
+                1행 2열
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2행 1열
+            </td>
+            <td>
+                2행 2열
+            </td>
+        </tr>
+            <td>
+                3행 1열
+            </td>
+            <td>
+                3행 2열
+            </td>
+        <tr>
+            <th> <!-- 헤더 즉 제목으로, 중앙정렬이 자동으로 된다 ! + Bold -->
+                4행 1열
+            </th>
+        </tr>
+    </table>
+    <hr color = 'red'>
+    <hr color = 'red'>
+    <!-- 3행 4열의 테이블을 만드세요
+        1행에는 테이블 제목을 주되 번호, 이름, 연락처, 주소
+    -->
+    <!--align 같은 경우는 css로 하기를 권장
+        bgcolor, bordercolor, cellspacing, cellpadding . . .
+    -->
+    <table border = "2" width = "400px" height = "200px" align = "center" bgcolor = 'beige' bordercolor = "skyblue" cellspacing = "10" cellpadding = "20">
+        <thead>
+            <tr bgcolor = "#a98bd5" style="color:white">
+                <th>번호</th>
+                <th>이름</th>
+                <th>연락처</th>
+                <th>주소</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>이얀조</td>
+                <td>4170</td>
+                <td>울솬</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>백얀조</td>
+                <td>3232</td>
+                <td>인천</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr color = "green">
+    <hr color = "green">
+    <!-- table>thead>tr>th*4 와 같은 vscode 가 지원하는 명령어가 존재 -->
+    <table border = "1" width = "70%" height = "400px" align = "center" bgcolor = "gray" bordercolor = "white" cellspacing = "10" cellpadding = "20">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td background = "./images/fall2.jpg">2, 1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <caption>그림 1-1</caption> <!--무조건 table 위에 표기되므로 수정하기 위해서는 css를 사용해야한다.-->
+        </tbody>
+    </table>
+</body>
+</html>
