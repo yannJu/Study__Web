@@ -31,7 +31,7 @@
     - rowspan, colspan . . .
 13. [ex12_tablePractice.html](./ex12_tablePractice.html)
     - 이력서 table을 이용하여 만들기🎃
-    - [!이력서실습]("images/test_submit.JPG")
+    - [!이력서실습]("./test_submit.JPG")
 14. [ex13_audio.html](./ex13_audio.html)
     - Html 문서 내에 오디오 재생기 삽입🎡
 15. [ex14_video.html](./ex14_video.html)
