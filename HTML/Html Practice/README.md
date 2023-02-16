@@ -30,6 +30,8 @@
     - 조금 더 복잡한 프레임을 가진 table 삽입🎑
     - rowspan, colspan . . .
 13. [ex12_tablePractice.html](./ex12_tablePractice.html)
-    - 이력서 table을 이용하여 만들기
-    - <img src = "images/submit" width = "50%">
-14. 
+    - 이력서 table을 이용하여 만들기🎃
+    - <img src = "images/test_submit.JPG" width = "50%">
+14. [ex13_audio.html](./ex13_audio.html)
+    - Html 문서 내에 오디오 재생기 삽입🎡
+15. 
