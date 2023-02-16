@@ -18,7 +18,7 @@
 8. [ex07_entitychar.html](./ex07_entitychar.html)
    - Html Entity Char set 관련한 연습🎪
    - &nbsp; , &lt;, &gt; , &amp;, &quot;, &copy; . . .
-9.  [ex08_img.html](./ex08_img.html)
+9. [ex08_img.html](./ex08_img.html)
     - Html 문서에서 이미지 추가🎐
 10. [ex09_imageMap.html](./ex09_imageMap.html)
     - Html 문서에서 이미지 내에 링크 여러개 삽입🎏
