@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex23_selector.html</title>
+    <style>
+        /*div태그에 대해 글자색:초록색, 글자크기:22pt, 서체:sans-serif 바깥여백 10px*/
+        div {
+            color: green;
+            font-size: 22pt; /*px아님 !!!!!!!!!!!!!!!!!!*/
+            font-family: sans-serif;
+            margin: 10px; 
+        }
+
+        /*id가 dv1인 요소를 선택해서 배경색을 알아서 ~ 줘보자 + 글자색은 lime + 안쪽여백 5px*/
+        #dv1 {
+            background-color: cadetblue;
+            color: lime;
+            padding: 5px;
+        }
+
+        /*클래스가 c1인 요소를 선택해서 
+            글자색 : marron
+            안쪽여백 : 20px
+            바깥여백 : 10px
+            폭 : 200px
+            높이 : 200px
+            배경색 : beige
+        */
+        .c1 {
+            color: maroon;
+            padding: 20px;
+            margin: 10px;
+            width: 200px; /*width 가 주로 100% 로 되어있어서 꽉채워지는데 200px로 하면 좀 줄어든댜*/
+            height: 100px;
+            background-color: beige;
+        }
+
+        /*클래스가 c2인 요소를 선택해서
+            테두리를 3px 색상 dashed
+        */
+        .c2 {
+            /* 만약 속성이 겹친다면 :  나중에 정의된 경우로 덮어씌워짐*/
+            background-color: rgb(202, 214, 137);
+            border: 3px skyblue dashed;
+        }
+
+        /* 아이디 선택자의 우선순위가 제일 높기 때문에 c2에 border가 설정되었음에도 div6가 선택됨*/
+        #div6 {
+            border: 5px double blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Select(선택자) 유형</h1>
+    <h2>아이디 선택자 > 클래스 선택자 > 태그 선택자</h2>
+
+    <!-- id(identity) : 한 페이지 내에서 unique한 값을 가져야 한다 =.= -->
+    <!-- id 선택자 : #아이디명 // 과 같이 호출 -->
+    <div id = "dv1">div 태그1 #dv1</div>
+    <div>div 태그2</div>
+    <div id = "dv3">div 태그3 #dv3</div>
+
+    <!-- class : 한 페이지 내에서 동일한 이름을 여러개 지정해도 된댜 ㄴㅇㅁㅇㄱ -->
+    <!-- class 선택자 : .클래스명 // 과 같이 호출 -->
+    <div class = "c1">
+        div 태그4 .c1
+    </div>
+    
+    <div class = "c1 c2"> <!--c1, c2 클래스 모두에 포함된다-->
+        div 태그 5 .c1 .c2
+    </div>
+
+    <div id = "div6" class = "c2">
+        div 태그 6 #div6 .c2
+    </div>
+</body>
+</html>

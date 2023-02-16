@@ -12,5 +12,7 @@
 4. [ex22_css4.html](./ex22_css4.html)
    - 태그 안에 inline으로 style 속성을 작성한 후 참조👜
    - inline style이 가장 우선순위가 높게 적용된다.
-**아이디 > 클래스 > 계층 > 태그 선택자 순으로  선택자 우선순위가 높다.**
-5. 
+5. [ex23_selector.html](./ex23_selector.html)
+   - 선택자(Selector) 유형⛳
+   - 아이디 > 클래스 > 계층(부모-자식 같은경우) > 태그 선택자 순으로  선택자 우선순위가 높다.
+6. 
