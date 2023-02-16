@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* css/style.css */
+
+body {
+    color: blue;
+    background-color : lightcyan;
+    padding: 2em;
+}
+
+/*
+    div 태그에 대해
+    서체 : 궁서체
+    글자크기 : 30% 크게
+    글자색 : 알아서
+*/
+
+div {
+    font-family: '궁서';
+    font-size: 1.3em;
+    color: hotpink;
+    margin-bottom: 30px;
+}
