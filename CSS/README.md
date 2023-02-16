@@ -16,4 +16,7 @@
 5. [ex23_selector.html](./ex23_selector.html)
    - 선택자(Selector) 유형⛳
    - **아이디 > 클래스 > 계층(부모-자식 같은경우) > 태그 선택자** 순으로  선택자 우선순위가 높다.
-6. 
+6. [ex24_signup.html](./ex24_signup.html)
+   - 회원가입 실습🎭
+   - **__ING__**
+7. 

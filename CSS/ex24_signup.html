@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex24_signup.html</title>
+    <!--외부 css파일 연동-->
+    <link rel = "stylesheet" type = "text/css" href = "css/signupStyle.css">
+</head>
+<body>
+    <form name = "signupForm" id = "signupForm" action = "./signupFin.html" method = "get">
+        <!--아이디 정보-->
+        <div id = 'idInfo'>
+            <table width = "50%">
+                <thead>
+                    <tr>
+                        <td class = 'head' colspan="2">☞아이디(ID)정보</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--[[[[[[[[[[[[[[[[[[[[[아이디]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' rowspan="2">* 아이디</td>
+                        <td>
+                            <div>
+                                <span>
+                                    <input type="text"></input>
+                                    <input type="button" value="중복검사"></input>
+                                </span>
+                            </div>
+                            <div class = 'importAlert'>
+                                (4~12자 영자/숫자 가능, 한글, 특수문자 ID는 사용할 수 없습니다.)
+                            </div>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[비밀번호]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 비밀번호</td>
+                        <td>
+                            <input type="text"></input>
+                            <span class = 'importAlert'>(4~8자 이내로 만들어 주세요)</span>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[비밀번호 확인]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 비밀번호 확인</td>
+                        <td>
+                            <input type="text"></input>
+                            <span class = 'importAlert'>(위 번호와 같이 입력해 주세요)</span>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 질문]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 본인확인 질문</td>
+                        <td>
+                            <select name = "identityQuestion">
+                                <option value="">질문을 선택하세요</option>
+                                <option value="hobby">취미가 무엇인가요?</option>
+                                <option value="food">가장 좋아하는 음식은 무엇인가요?</option>
+                                <option value="animation">가장 좋아하는 만화는 무엇인가요?</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 답]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 본인확인 답</td>
+                        <td>
+                            <input type="text"></input>
+                            <span class = 'importAlert'>(비밀번호 분실, 변경시 본인확인을 위한 정보)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--개인정보-->
+        <div id = 'personalInfo'>
+            <table width = "50%">
+                <thead>
+                    <tr>
+                        <td class = 'head' colspan="2">☞개인정보</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--[[[[[[[[[[[[[[[[[[[[[이름]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title'>* 이름(한글)</td>
+                        <td>
+                            <div>
+                                <span>
+                                    <input type="text"></input>
+                                </span>
+                                <span class = 'importAlert'>
+                                    (예:박정현)
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[성별]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 성별</td>
+                        <td>
+                            <label for = "male"><input type = "radio" name = "gender" id = "male" value = "M" checked>남자</label>
+                            <label for = "male"><input type = "radio" name = "gender" id = "male" value = "F">여자</label>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[생년월일]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 생년월일</td>
+                        <td>
+                            <span>
+                                <input type = "text"> 
+                                년
+                            </span>
+                            <span>
+                                <select name = "month">
+                                    <option value = "">선택</option>
+                                    <option value = "1">1</option>
+                                    <option value = "2">2</option>
+                                    <option value = "12">12</option>
+                                </select>
+                                월
+                            </span>
+                            <span>
+                                <select name = "day">
+                                    <option value = "">선택</option>
+                                    <option value = "1">1</option>
+                                    <option value = "2">2</option>
+                                    <option value = "31">31</option>
+                                </select>
+                                일
+                            </span>
+                            <label for="lunar"><input type = "radio" name = "moonSun" id = "moonSun" value = "lunar">음력</input></label>
+                            <label for="solar"><input type = "radio" name = "moonSun" id = "moonSun" value = "solar">양력</input></label>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 질문]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 본인확인 질문</td>
+                        <td>
+                            <select name = "identityQuestion">
+                                <option value="">질문을 선택하세요</option>
+                                <option value="hobby">취미가 무엇인가요?</option>
+                                <option value="food">가장 좋아하는 음식은 무엇인가요?</option>
+                                <option value="animation">가장 좋아하는 만화는 무엇인가요?</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 답]]]]]]]]]]]]]]]]]]]]]-->
+                    <tr>
+                        <td class = 'title' >* 본인확인 답</td>
+                        <td>
+                            <input type="text"></input>
+                            <span class = 'importAlert'>(비밀번호 분실, 변경시 본인확인을 위한 정보)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

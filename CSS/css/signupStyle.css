@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* css/signupStyle.css */
+
+.head {
+    background-color: skyblue;
+    color: blue;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.importAlert {
+    color: blue;
+}
+
+.title {
+    background-color: yellow;
+}
