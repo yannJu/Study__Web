@@ -12,5 +12,6 @@
     - 표 만들기
     - [**실습 : Trip Panner Page 만들기**](https://github.com/yannJu/Study__Web/blob/master/HTML/TripPlan_Page.html)
        - ![day1](https://github.com/yannJu/Study__Web/blob/master/HTML/img/SwitzerlandPlann_Day1.PNG) ![day2](https://github.com/yannJu/Study__Web/blob/master/HTML/img/SwitzerlandPlann_Day2.PNG)
-3. ex0 - ex07
-     - html 서식 태그 사용 practice
+3. [**Html Practice**](./Html%20Practice/)
+     - 각종 Html 태그 사용
+     - Html 문서 연습
