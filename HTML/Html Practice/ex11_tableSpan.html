@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex11_tableSpan.html</title>
+</head>
+<body>
+    <h1>열병합 (colspan 속성)</h1>
+    <table border = "1" width = "80%" height = "350px" bgcolor = "beige">
+        <tr>
+            <td>1, 1</td>
+            <td colspan = "2">1, 2</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan = "3">3, 1</td>
+        </tr>
+    </table>
+    <hr color = "blue">
+    <hr color = "blue">
+    <h1>행병합 (rowspan 속성)</h1>
+    <!--3행 3열 테이블-->
+    <table border = "1" width = "80%" height = "350px">
+        <tr> <!--tr에 span 하는것이 아님!-->
+            <td rowspan = "2">1, 1</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- <td></td> 1, 1에서 span되었기 때문에-->
+            <td></td>
+            <td rowspan = "2">2, 3</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <!-- <td></td> 2, 3에서 span-->
+        </tr>
+    </table>
+</body>
+</html>
