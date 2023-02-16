@@ -26,4 +26,10 @@
 11. [ex10_table.html](./ex10_table.html)
     - Html 문서 내에 table(표) 삽입 및 연습🎋
     - table, th, tr, td, thead, tbody . . .
-12. 
+12. [ex11_tableSpan.html](./ex11_tableSpan.html)
+    - 조금 더 복잡한 프레임을 가진 table 삽입🎑
+    - rowspan, colspan . . .
+13. [ex12_tablePractice.html](./ex12_tablePractice.html)
+    - 이력서 table을 이용하여 만들기
+    - <img src = "images/submit" width = "50%">
+14. 
