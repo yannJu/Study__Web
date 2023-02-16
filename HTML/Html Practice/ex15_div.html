@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex15_div.html</title>
+    <style type = "text/css">
+        /*css 영역*/
+        div{
+            background-color : #aaccff;
+            margin : 10px; /*바깥여백 주기*/
+            padding : 20px; /*안쪽 여백 주기*/
+            width : 300px; 
+            text-align : center;
+        }
+        span{
+            background-color : cadetblue;
+            margin : 10px 20px; /*상하 10px, 좌우 20px*/
+            padding : 20px;
+            /*inline은 width, height가 적용안됨!*/
+            /*수평으로 배치하면서 width, height, margin을 적용하고 싶다면 display 속성을 사용*/
+            width : 200px;
+            height : 80px; 
+            display : inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>공간분할 태그(div, span)</h1>
+    <h2>블럭 요소 : div, 인라인 요소 : span</h2>
+    <hr>
+    <!--div 내의 것들을 감싸는 컨테이너 역할!-->
+    <div>하늘</div>
+    <div>땅</div>
+    <div>바다</div>
+    <!--span 내의 것들을 수평으로 감싸는 컨테이너 역할!-->
+    <hr color = "blue">
+    <span>봄</span>
+    <span>여름</span>
+    <span>가을</span>
+    <span>겨울</span>
+</body>
+</html>
