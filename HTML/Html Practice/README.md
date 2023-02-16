@@ -49,6 +49,6 @@
     - 첨부파일 Upload
 18. [ex17_form2.html](./ex17_form2.html)
     - Html5 에 새롭게 추가된 tag 사용🧲
-    - Fieldset
+    - Filedset
     - Email type(required, multiple 옵션), Url type, Tel type, Date type, Time type, Number type, Color type, Range type 등 의 input 태그
     - Button 태그
