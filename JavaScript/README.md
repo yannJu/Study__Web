@@ -10,4 +10,17 @@
    - 외부 JavaScript 파일을 참조하여 동적처리⚙
    - <script>태그를 이용하여 불러오기
    - function 만들고 호출
-3. 
+3. [ex42_dataType.html](.ex42_dataType.html)
+   - 자바스크립트의 자료형🎙
+   - 기본자료형 : var, let, const
+   - var: __전역범위__ 혹은 함수범위/ **재선언과 업데이트**가 가능
+   - let, const: __블록단위__ => if절 내에서 정의했다면 if 블록 밖에서 __사용 불가__/ **재선언 불가, 업데이트는 가능**
+   - 참조형 : Object, function
+   - json유형, object 유형 . . .
+4. [ex43_function.html](./ex43_function.html)
+   - Script문 내에서 함수 선언🦺
+   - function 블록 생성
+   - 변수에 function 바로 대입 + 호출을 무조건 해야한다 !
+5. [ex44_operator.html](./ex44_operator.html)
+   - 산술 연산자, 비트 연산자 . . . 👘
+6. 
