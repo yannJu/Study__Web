@@ -36,4 +36,6 @@
 11. [ex29_font.html](./ex29_font.html)
     - 글자 또는 텍스트 Style 적용🥁
     - overline, underline, line-through, textshadow . . 
+    - vertical align, text align . .
+    - text transform. . .
 12. 
