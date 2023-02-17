@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex31_float.html</title>
+    <style>
+        div {
+            border: 2px solid blueviolet;
+            width: 40%;
+            padding: 7px;
+            margin: 8px;
+        }
+        div.bx{
+            /*margin: 10px;*/
+            /*아래와 같이 각각 margin을 줄 수도 있다*/
+            /*
+            margin-top: 10px;
+            margin-bottom: 20px;
+            */
+            /*혹은 아래와 같이 상하좌우, 상하/좌우 같이 지정해 줄 수 있다*/
+            /*
+                margin: 10px 20px 30px 40px;
+                margin: 10px 20px
+            */
+            margin: 10px 5px;
+            padding: 10px;
+            /*
+            수직정렬은 테이블에서 적용되나 div태그에서는 적용되지 않는다 !
+            */
+            text-align: center;
+            vertical-align: middle;
+        }
+        /*
+        div{
+            float: left; 왼쪽으로 잡아당겨진댜
+        }
+        */
+        /*2행 2열로 만들어보자*/
+        div:nth-child(2n + 1){
+            background-color: beige;
+            float: left;
+        }
+        div:nth-child(2n){
+            float: right;
+        }
+        p.cls{
+            clear:both;
+        }
+        img{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="bx">
+        1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </div>
+    <div>
+        2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </div>
+    <!--float을 해지-->
+    <!--
+        float속성을 해제하고자 할때는 clear속성을 지정해서 left, right, both를 지정
+    -->
+    <p class= "cls"></p> 
+    <div>
+        3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </div>
+    <div>
+        4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </div>
+    <p class= "cls"></p>
+
+    <img src = "../HTML/Html Practice/images/flower1.JPG">
+    스타일시트를 이용해서
+	옆에 텍스트를 배치하고자 할 때 사용하는 속성: float.
+	float속성은 하나의 라인에 이미지와 글씨가 함께 있을 때
+	이미지를 왼쪽이나 오른쪽에 배치하고, 나머지 글씨들이
+	이미지 주변으로 흐르도록 하는 속성.
+	이미지 뿐 아니라 모든 block요소에 대해  float속성을
+	사용할 수 있으며, 속성 값에는 none, left, right를 
+	사용할 수 있다.
+    <hr color="pink" style="clear:left;">
+    <img src = "../HTML/Html Practice/images/fall1.JPG">
+    :clear
+	clear는 '취소하다'는 의미로 속성값으로는 left,right,both,none
+	이 오며, float:left를 취소하려면 clear:left,
+	float:right를 취소하려면 clear:right, clear:both는 오른쪽 왼쪽
+	모두 취소할 때 사용한다.
+</body>
+</html>

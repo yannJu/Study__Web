@@ -40,4 +40,8 @@
    - text transform. . .
 12. [ex30_background.html](./ex30_background.html)
    - 배경과 관련된 Style 적용👙
-13. 
+13. [ex31_float.html](./ex31_float.html)
+   - 화면상에 떠있는 것 같은 화면 공간을 만들기📻
+   - float : 왼쪽 혹은 오른쪽으로 배치
+   - clear : float을 해지
+14. 
