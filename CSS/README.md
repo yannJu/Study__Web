@@ -31,11 +31,13 @@
    - 가상 클래스 선택자를 이용하여 Style 적용👠
    - firstchild, lastchild, nth-child . . .
 10. [ex28_selector_pseud.html](./ex28_selector_pseud.html)
-    - 가상요소 선택자를 이용하여 Style 적용🎨
-    - first-letter, first-line, before, after . . .
+   - 가상요소 선택자를 이용하여 Style 적용🎨
+   - first-letter, first-line, before, after . . .
 11. [ex29_font.html](./ex29_font.html)
-    - 글자 또는 텍스트 Style 적용🥁
-    - overline, underline, line-through, textshadow . . 
-    - vertical align, text align . .
-    - text transform. . .
-12. 
+   - 글자 또는 텍스트 Style 적용🥁
+   - overline, underline, line-through, textshadow . . 
+   - vertical align, text align . .
+   - text transform. . .
+12. [ex30_background.html](./ex30_background.html)
+   - 배경과 관련된 Style 적용👙
+13. 
