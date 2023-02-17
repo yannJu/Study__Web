@@ -53,4 +53,10 @@
     - Layer를 구성🖼
     - position을 이용하여 type 변경(default는 static)
     - z-index로 순서 적용
-17. 
+17. [ex36_position_static.html](ex36_position_static.html) & [ex37_position_relative.html](./ex37_position_relative.html) & [ex38_position_absolute.html](./ex38_position_absolute.html) & [ex39_position_fixed.html](./ex39_position_fixed.html)
+    - position과 관련하여 연습🎳
+    - static(default)
+    - relative: static을 기준으로 이동 = 자기자신을 기준으로 이동
+    - absolute: 가장 가까운 부모를 기준으로 이동(부모가 없다면  body기준)
+    - fixed: 컨텐츠를 고정시킴(static의 경우 박스가 전체가 되지만, fixed는 컨텐츠 크기만큼만 고정)
+18. 
