@@ -44,4 +44,7 @@
    - 화면상에 떠있는 것 같은 화면 공간을 만들기📻
    - float : 왼쪽 혹은 오른쪽으로 배치
    - clear : float을 해지
-14. 
+   - ![floatPractice](./img/floatImg.JPG)
+14. [ex32_em.html](./ex32_em.html) & [ex33_rem.html](./ex33_rem.html)
+    - 'em'단위는 중첩(상속)이 적용된다. -> 'rem'을 쓰면 상속이 적용되지 않는다!🧶
+15. 
