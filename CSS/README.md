@@ -25,4 +25,12 @@
    - >, 공백, +, ~ 로 표현
 8. [ex26_selector_state.html](./ex26_selector_state.html)
    - 상태선택자를 이용하여 Style 적용🎾
-9.  
+   - 태그:상태{} 형태로 적용
+   - not() 함수처럼 사용하여 not 표현
+9. [ex27_selector_state2.html](./ex27_selector_state2.html)
+   - 가상 클래스 선택자를 이용하여 Style 적용👠
+   - firstchild, lastchild, nth-child . . .
+10. [ex28_selector_pseud.html](./ex28_selector_pseud.html)
+    - 가상요소 선택자를 이용하여 Style 적용🎨
+    - first-letter, first-line, before, after . . .
+11. 
