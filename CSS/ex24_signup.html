@@ -135,26 +135,24 @@
                             <label for="solar"><input type = "radio" name = "moonSun" id = "moonSun" value = "solar">양력</input></label>
                         </td>
                     </tr>
-                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 질문]]]]]]]]]]]]]]]]]]]]]-->
+                    <!--[[[[[[[[[[[[[[[[[[[[[주소]]]]]]]]]]]]]]]]]]]]]-->
                     <tr>
-                        <td class = 'title' >* 본인확인 질문</td>
+                        <td class = 'title' >* 주소</td>
                         <td>
-                            <select name = "identityQuestion">
-                                <option value="">질문을 선택하세요</option>
-                                <option value="hobby">취미가 무엇인가요?</option>
-                                <option value="food">가장 좋아하는 음식은 무엇인가요?</option>
-                                <option value="animation">가장 좋아하는 만화는 무엇인가요?</option>
-                            </select>
+                            <div>
+                                <span>
+                                    <input type="text" name = "address">
+                                </span>
+                                <span>
+                                    <input type = "button" id = "searchAddress" value = "우편번호 검색">
+                                </span>
+                            </div>
+                            <div>
+                                <input type = "text" name = "detailAddress">
+                            </div>
                         </td>
                     </tr>
-                    <!--[[[[[[[[[[[[[[[[[[[[[본인확인 답]]]]]]]]]]]]]]]]]]]]]-->
-                    <tr>
-                        <td class = 'title' >* 본인확인 답</td>
-                        <td>
-                            <input type="text"></input>
-                            <span class = 'importAlert'>(비밀번호 분실, 변경시 본인확인을 위한 정보)</span>
-                        </td>
-                    </tr>
+                    <!--[[[[[[[[[[[[[[[[[[[[[하위는 유사하므로 생략 - -]]]]]]]]]]]]]]]]]]]]]-->
                 </tbody>
             </table>
         </div>
