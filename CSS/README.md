@@ -20,4 +20,6 @@
    - 회원가입 실습🎭
    - 하위는 상위와 유사하므로 생략
    - ![회원가입 실습](./img/signupImg.JPG)
-7. 
+7. [ex25_selector_desc.html](./ex25_selector_desc.html)
+   - 계층선택자를 이용하여 Style 적용🏒
+8. 
