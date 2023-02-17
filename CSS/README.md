@@ -22,4 +22,7 @@
    - ![회원가입 실습](./img/signupImg.JPG)
 7. [ex25_selector_desc.html](./ex25_selector_desc.html)
    - 계층선택자를 이용하여 Style 적용🏒
-8. 
+   - >, 공백, +, ~ 로 표현
+8. [ex26_selector_state.html](./ex26_selector_state.html)
+   - 상태선택자를 이용하여 Style 적용🎾
+9.  
