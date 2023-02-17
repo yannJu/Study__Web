@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex35_layer.html</title>
+    <style>
+        #wrap{
+            border: 1px solid red; /*원래 위치를 알기 위해 static을 표시*/
+            position: relative;
+            left: 100px; /*x좌표*/
+            top: 50px; /*y좌표*/
+            width: 80%;
+            height: 500px;
+        }
+        div:not(#wrap){
+            width: 100px;
+            height: 100px;
+        }
+        /*z1~z4까지 1이 제일 아래에 깔려서 겹치도록 구성(z-index없는 경우)*/
+        /*만약 순서를 뒤집고 싶다면 z-index를 이용*/
+        .z-1{
+            /*absolute는 부모의 position이 relative일 때는 부모를 기준으로 x, y좌표를 잡는다.
+            부모의 position이 relative가 아니라면 body를 기준으로 x, y좌표를 잡는다.*/
+            position: absolute; /*부모를 기준으로 absolute -> static이면 겹치지 않는데 absolute여서 겹침 . . */
+            background-color: aqua;
+            left: 50px;
+            top: 50px;
+            z-index: 4;
+        }
+        .z-2{
+            color: coral;
+            background-color: pink;
+            position: absolute;
+            left: 80px;
+            top: 80px;
+            z-index: 3;
+        }
+        .z-3{
+            position: absolute;
+            background-color: yellow;
+            left: 110px;
+            top: 110px;
+            z-index: 2;
+        }
+        .z-4{
+            position: absolute;
+            background-color: #572841;
+            color: white;
+            left: 140px;
+            top: 140px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>레이어를 구성해보자</h1>
+    <!--레이어로 감싸기 위해 부모를 포지션을 설정-->
+    <!--
+        [1]absolute
+        [2]fixed
+        [3]static(default)
+        [4]relative
+    -->
+    <div id=" wrap">
+        <div id = "" class="z-1">레이어 1</div>
+        <div id = "" class="z-2">레이어 2</div>
+        <div id = "" class="z-3">레이어 3</div>
+        <div id = "" class="z-4">레이어 4</div>
+    </div>
+</body>
+</html>

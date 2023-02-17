@@ -31,20 +31,26 @@
    - 가상 클래스 선택자를 이용하여 Style 적용👠
    - firstchild, lastchild, nth-child . . .
 10. [ex28_selector_pseud.html](./ex28_selector_pseud.html)
-   - 가상요소 선택자를 이용하여 Style 적용🎨
-   - first-letter, first-line, before, after . . .
+    - 가상요소 선택자를 이용하여 Style 적용🎨
+    - first-letter, first-line, before, after . . .
 11. [ex29_font.html](./ex29_font.html)
-   - 글자 또는 텍스트 Style 적용🥁
-   - overline, underline, line-through, textshadow . . 
-   - vertical align, text align . .
-   - text transform. . .
+    - 글자 또는 텍스트 Style 적용🥁
+    - overline, underline, line-through, textshadow . . 
+    - vertical align, text align . .
+    - text transform. . .
 12. [ex30_background.html](./ex30_background.html)
-   - 배경과 관련된 Style 적용👙
+    - 배경과 관련된 Style 적용👙
 13. [ex31_float.html](./ex31_float.html)
-   - 화면상에 떠있는 것 같은 화면 공간을 만들기📻
-   - float : 왼쪽 혹은 오른쪽으로 배치
-   - clear : float을 해지
-   - ![floatPractice](./img/floatImg.JPG)
+    - 화면상에 떠있는 것 같은 화면 공간을 만들기📻
+    - float : 왼쪽 혹은 오른쪽으로 배치
+    - clear : float을 해지
+    - ![floatPractice](./img/floatImg.JPG)
 14. [ex32_em.html](./ex32_em.html) & [ex33_rem.html](./ex33_rem.html)
     - 'em'단위는 중첩(상속)이 적용된다. -> 'rem'을 쓰면 상속이 적용되지 않는다!🧶
-15. 
+15. [ex34_important.html](./ex34_important.html)
+    - 우선순위로 인해 속성이 먹히지 않는 경우 **!important**를 이용하자🧵
+16. [ex35_layer.html](./ex35_layer.html)
+    - Layer를 구성🖼
+    - position을 이용하여 type 변경(default는 static)
+    - z-index로 순서 적용
+17. 
