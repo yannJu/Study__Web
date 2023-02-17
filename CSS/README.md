@@ -59,4 +59,9 @@
     - relative: static을 기준으로 이동 = 자기자신을 기준으로 이동
     - absolute: 가장 가까운 부모를 기준으로 이동(부모가 없다면  body기준)
     - fixed: 컨텐츠를 고정시킴(static의 경우 박스가 전체가 되지만, fixed는 컨텐츠 크기만큼만 고정)
-18. 
+18. [ex40_layout.html](./ex40_layout.html)
+    + [40_layoutStyle.css](./css/40_layoutStyle.css) 
+    - 홈페이지 만들어보기🎑
+    -  header, nav, aside, footer등 div이지만 의미를 가진 태그를 사용
+    -  ![layout실습](./img/layoutImg.JPG)
+19. 
