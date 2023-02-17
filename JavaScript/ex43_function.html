@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex43_function.html</title>
+</head>
+<body>
+    <h1>함수 🎃</h1>
+    <script>
+        /*
+            [1] function 함수명 (매개변수) {} -> hoisting 지원됨
+        */
+        function plus(a, b) {
+            document.write("<h2>" + a + " + " + b + " = " + (a + b) + "</h2>");
+        }
+        plus(3, 5);
+        document.write("<hr color='hotpink'>");
+
+        /*
+            [2] 변수 = function() {}-> hoisting 지원안됨
+        */
+        let multiple = function(x, y){
+            document.write("<h2>" + x + " x " + y + " = " + (x * y) + "</h2>");
+        };
+        multiple(4, 5);
+        /*
+            return문을 이용하여 반환값을 줄 수 있다.
+        */
+        // 나눈 결과값을 반환하는 함수 구성해보기
+        function divide(x, y) {
+            document.write(`${x} / ${y} = ${x / y}`); //`를 이용하여 formatting 가능
+        }        
+        //divideResult = divide(80, 10);
+        divide(80, 10);
+        //document.write("result = " + divideResult);
+    </script>
+</body>
+</html>
