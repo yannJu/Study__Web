@@ -23,4 +23,7 @@
    - 변수에 function 바로 대입 + 호출을 무조건 해야한다 !
 5. [ex44_operator.html](./ex44_operator.html)
    - 산술 연산자, 비트 연산자 . . . 👘
-6. 
+6. [ex45_operator2.html](./ex45_operator2.html)
+   - 변환 내장함수 사용해보기👓
+   - parseInt : int 로 변환
+   - 삼항연산자, 조건문 사용

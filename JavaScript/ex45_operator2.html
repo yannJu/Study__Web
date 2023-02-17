@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex45_operator2.html</title>
+</head>
+<body>
+    <h1>홀짝 비교8_8</h1>
+    <script>
+        function print(a) {
+            document.write(`<h2>Result : ${a}</h2>`);
+        }
+
+        //정수로 변환하는 함수
+        let num = parseInt(prompt('정수를 입력하세요 >> ', 100));
+
+        //if문을 이용하여 홀수 Odd 출력, 짝수 Even출력
+        if (num % 2 == 0) {
+            str = num+"은 Even이에욧 :>";
+        } 
+        else {
+            str = num+"은 Odd에오 :<";
+        }
+        print(str);
+
+        //삼항 연산자
+        // 변수 = (조건식)? 값1:값2
+        let str2=(num%2 == 0)?"짝수":"홀수";
+        str2 +=  "입니다 ~";
+
+        print(str2);
+    </script>
+</body>
+</html>
