@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex34_important.html</title>
+    <style>
+        /*id > 태그 이므로 태그 적용이안됨*/
+        /*id를 지울 수는 없지만 , , 태그 내의 속성을 적용하고 싶으면? -> !important 사용*/
+        /*#p1 글자색을 blue로 주세요*/
+        #p1 {
+            color: blue;
+        }
+        /*p 태그 선택 : 글자색 red로 주세요*/
+        p {
+            color: red !important; /*우선 순위와 관계없이 선택하고 싶은경우*/
+        }
+        /*.cls 글자색 blue, div 태그는 green*/
+        div.cls {
+            background-color: blue;
+            color: white;
+            padding: 4px;
+        }
+        div {
+            background-color: green !important;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">Will be Red</p>
+    <div class = "cls">
+        Will be Green
+    </div>
+</body>
+</html>
